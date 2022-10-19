@@ -74,7 +74,7 @@ public class Main {
         System.out.println("Подзадача");
         numberEmployees = numberEmployees + 94;
         System.out.println("Колличество работников " + numberEmployees);
-        var numberHours = totalTime / numberEmployees;
+        var numberHours = oneEmployee * numberEmployees;
         System.out.println("Если в компании работает " + numberEmployees + " человек, то всего " + numberHours + " часа работы может быть поделено между сотрудниками" );
 
 
